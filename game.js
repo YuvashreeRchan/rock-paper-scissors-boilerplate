@@ -53,7 +53,7 @@ function compareHands(youHand, compHand){
 function updateScores(){
     you_score.textContent =scoreYou;
     comp_score.textContent =scoreComp;
-    if (scoreYou === "5" || scoreComp === "5") {
+    if (scoreYou === 5 || scoreComp === 5) {
         options.style.visibility = "hidden";
         play_again.style.visibility = "visible";
 }
