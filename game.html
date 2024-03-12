@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors game</title>
+    <link rel="stylesheet" href="game.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <script src="game.js"></script>
+    <div class="score">
+        <span class="score-you">0</span>-<span class="score-comp">0</span>
+    </div>
+    <div class="box-area">
+        <div class="you box">
+            <h3>You</h3>
+            <img id="you-hand" src="" alt=""/>
+            <div class="options">
+                <img src="assets/rock-logo.png" alt="rock"/>
+                <img src="assets/paper-logo.png" alt="paper"/>
+                <img src="assets/scissors-logo.png" alt="scissor"/>
+            </div>
+        </div>
+        <div class="vs">
+            <img src="assets/vs.png" alt="vs"/>
+        </div>
+        <div class="comp box">
+            <h3>Comp</h3>
+            <img id="comp-hand" alt=""/>
+        </div>
+    </div>
+
+    <div class="play-again">
+        <h3>You won the game</h3>
+        <div class="play-again-button">Play Again</div>
+    </div>
+</body>
+</html>
